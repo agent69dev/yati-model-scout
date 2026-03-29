@@ -14,3 +14,7 @@ CSRF_TRUSTED_ORIGINS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
+
+ALLOWED_HOSTS = ["*"]
+
+DEBUG = False
